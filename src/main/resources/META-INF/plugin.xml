@@ -1,0 +1,46 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.coderzf1.StringsXMLSorter</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>StringsXMLSorter</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="williams.carl.83@gmail.com" url="https://www.coderzf1.com">Coderz-F1</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description>
+        A simple plugin to sort your strings.xml file.
+    </description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>
+        org.jetbrains.android
+    </depends>
+    <depends>
+        com.intellij.modules.androidstudio
+    </depends>
+
+
+
+    <actions>
+        <group
+            id = "CoderzGroup"
+            description = "CoderzGroup">
+            <action
+                id = "com.coderzf1.stringsxmlsorter.MyDemoAction"
+                class="com.coderzf1.stringsxmlsorter.MyDemoAction"
+                text = "Sort Strings.xml"
+                description = "Sorts strings.xml"
+                />
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </group>
+    </actions>
+
+
+</idea-plugin>
