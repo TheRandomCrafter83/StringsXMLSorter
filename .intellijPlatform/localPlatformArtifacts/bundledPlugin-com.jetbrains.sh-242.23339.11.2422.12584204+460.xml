@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="com.jetbrains.sh" revision="242.23339.11.2422.12584204+460"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="/gradle/caches/8.8/transforms/4b88cdaefefd3223a2e4bb70013f69fb/transformed/android-studio-2024.2.2.9-windows/plugins/sh" type="directory" conf="default"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledPlugin" name="org.jetbrains.plugins.terminal" rev="242.23339.11.2422.12584204+819"/>
+    <dependency org="bundledPlugin" name="com.intellij.copyright" rev="242.23339.11.2422.12584204+856"/>
+    <dependency org="bundledPlugin" name="org.intellij.plugins.markdown" rev="242.23339.11.2422.12584204+714"/>
+  </dependencies>
+</ivy-module>

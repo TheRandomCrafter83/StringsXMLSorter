@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="com.android.tools.gradle.dcl" revision="242.23339.11.2422.12584204+590"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="/gradle/caches/8.8/transforms/49b72900b022e7b7167ee26189e721f4/transformed/android-studio-2024.2.2.9-windows/plugins/gradle-declarative" type="directory" conf="default"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledPlugin" name="com.intellij.java" rev="242.23339.11.2422.12584204+244"/>
+    <dependency org="bundledPlugin" name="com.intellij.gradle" rev="242.23339.11.2422.12584204+919"/>
+    <dependency org="bundledPlugin" name="org.jetbrains.kotlin" rev="242.23339.11.2422.12584204-AS+77"/>
+  </dependencies>
+</ivy-module>

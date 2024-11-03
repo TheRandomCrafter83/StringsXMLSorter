@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="JUnit" revision="242.23339.11.2422.12584204+657"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="/gradle/caches/8.8/transforms/4b88cdaefefd3223a2e4bb70013f69fb/transformed/android-studio-2024.2.2.9-windows/plugins/junit" type="directory" conf="default"/>
+  </publications>
+  <dependencies>
+    <dependency org="bundledPlugin" name="com.intellij.java" rev="242.23339.11.2422.12584204+265"/>
+    <dependency org="bundledPlugin" name="com.intellij.properties" rev="242.23339.11.2422.12584204+558"/>
+  </dependencies>
+</ivy-module>
